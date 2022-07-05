@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center; 
+  align-items: left;
+}
+
+.information input {
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  padding-left: 10px;
+ 
+}
+
+.information button {
+  width: 100px;
+  height: 20px;
+  margin-top: 15px;
+
+}
+
+.information button :hover{
+  cursor: pointer;
+
+}
+
+.datalist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center; 
+  align-items: left;
+}
